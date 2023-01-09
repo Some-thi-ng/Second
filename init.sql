@@ -1,0 +1,1 @@
+SELECT 'CREATE DATABASE linked_db' WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'linked_db')\gexec
